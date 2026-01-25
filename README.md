@@ -54,17 +54,15 @@ The entire "brain" of the project is serialized in `masterpiece_boston_model.pkl
 ### How to use the Model:
 
 python
+
 import joblib
-
-# Load the production-ready pipeline
+#Load the production-ready pipeline
 model = joblib.load('models/masterpiece_boston_model.pkl')
-
-# Predict instantly (preprocessing is handled automatically!)
+#Predict instantly (preprocessing is handled automatically!)
 predictions = model.predict(new_data)
 
 
 ## 📁 Repository Structure
-
 
 ├── data/               # Raw HousingData.csv & Audit results
 ├── models/             # Serialized .pkl production model
