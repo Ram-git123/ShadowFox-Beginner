@@ -49,7 +49,24 @@ We used SHAP values to ensure the model remains economically sound.
 
 ## 📋 Data Dictionary
 
-Variable--Expansion--Description
+### 📋 Data Dictionary
+
+| Variable | Expansion | Description |
+| :--- | :--- | :--- |
+| **CRIM** | Crime Rate | Per capita crime rate by town. |
+| **ZN** | Zoned Land | Proportion of residential land zoned for lots over 25,000 sq.ft. |
+| **INDUS** | Industrial Acres | Proportion of non-retail business acres per town. |
+| **CHAS** | Charles River | Dummy variable (1 if tract bounds river; 0 otherwise). |
+| **NOX** | Nitric Oxides | Nitric oxides concentration (parts per 10 million). |
+| **RM** | Average Rooms | Average number of rooms per dwelling. |
+| **AGE** | Property Age | Proportion of owner-occupied units built prior to 1940. |
+| **DIS** | Distances | Weighted distances to five Boston employment centers. |
+| **RAD** | Radial Highway | Index of accessibility to radial highways. |
+| **TAX** | Property Tax | Full-value property-tax rate per $10,000. |
+| **PTRATIO** | Pupil-Teacher Ratio | Pupil-teacher ratio by town school district. |
+| **B** | Black Population | Calculated as $1000(Bk - 0.63)^2$ where $Bk$ is the proportion of Black residents. |
+| **LSTAT** | Lower Status | % Lower status of the population. |
+| **MEDV** | **Median Value** | **Target Variable:** Median value of owner-occupied homes in $1000s. |
 
 ## 📦 Deployment & Usage
 
