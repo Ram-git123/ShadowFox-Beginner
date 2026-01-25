@@ -53,12 +53,12 @@ The entire "brain" of the project is serialized in `masterpiece_boston_model.pkl
 
 ### How to use the Model:
 
-``python
+```python
 import joblib
 
 # 1. Load the production-ready pipeline
 model = joblib.load('models/masterpiece_boston_model.pkl')
 
 # 2. Predict instantly (preprocessing is handled automatically!)
-predictions = model.predict(new_data)'''
+predictions = model.predict(new_data)
 
