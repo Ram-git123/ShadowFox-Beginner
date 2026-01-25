@@ -47,8 +47,6 @@ We used SHAP values to ensure the model remains economically sound.
 * **Global Importance:** Confirmed **Average Rooms (RM)** and **Lower Status Population (LSTAT)** as the primary drivers.
 * **Dependence Analysis:** Identified specific inflection points where neighborhood status begins to exponentially impact price.
 
-## 📋 Data Dictionary
-
 ### 📋 Data Dictionary
 
 | Variable | Expansion | Description |
